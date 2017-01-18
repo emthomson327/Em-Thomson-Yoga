@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-link:hover {
+  background-color: yellow;
+}
+
+.dropdown-item:hover {
+  background-color: yellow;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+#logo {
+  border-radius: 150px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logoContainer {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  height: 300px;
+  margin: 0;
+  background-color: gold;
+}
+
+#title {
+  width: 80%;
+  height: 300px;
+  position: absolute;
+  background-image: url("http://hothouseyogi.com/wp-content/uploads/2014/08/Yoga-Stock-8.26.14.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: bottom;
+  display: inline-block;
+  color: black;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 125px 0;
+}
+
+.img-fluid {
+  margin: auto;
+  height: 200px;
+  max-height: 300px;
+}
+
+.carousel {
+  background-color: grey;
+  width: auto;
+  height: auto;
+}
