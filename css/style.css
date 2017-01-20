@@ -63,9 +63,14 @@ header {
   margin: 0;
 }
 
-h1 {
+h1.headerTitle {
   text-align: center;
   padding: 125px 0;
+}
+
+h1.aboutPage {
+  text-align: center;
+  padding: 75px 0;
 }
 
 .img-fluid {
@@ -80,4 +85,39 @@ h1 {
   width: auto;
   height: auto;
   min-height: 200px;
+}
+
+.secondaryPageContainer {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+p {
+  display: inline-block;
+  width: 40%;
+  padding-left: 10%;
+
+}
+
+.aboutImages {
+  display: inline-block;
+  position: absolute;
+  width: 40%;
+}
+
+#aboutImageUpper {
+  display: block;
+  width: 250px;
+  margin: 0 auto 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
+}
+
+#aboutImageLower {
+  display: block;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 55%;
+  margin-right: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
 }
