@@ -68,7 +68,7 @@ h1.headerTitle {
   padding: 125px 0;
 }
 
-h1.aboutPage {
+h1.secondaryPageTitle {
   text-align: center;
   padding: 75px 0;
 }
@@ -100,20 +100,20 @@ p {
 
 }
 
-.aboutImages {
+.secondaryPageImages {
   display: inline-block;
   position: absolute;
   width: 40%;
 }
 
-#aboutImageUpper {
+#aboutImageUpper, #yogaForActorsImageUpper, #contactImageUpper {
   display: block;
   width: 250px;
   margin: 0 auto 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
 }
 
-#aboutImageLower {
+#aboutImageLower, #yogaForActorsImageLower, #contactImageLower{
   display: block;
   width: 250px;
   margin-top: 10px;
