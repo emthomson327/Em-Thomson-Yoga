@@ -6,6 +6,24 @@
   box-sizing: border-box;
 }
 
+a {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .navbar {
+    min-height: 60px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .collapse {
+    height: 200px;
+    background-color: #f7f7f7;
+  }
+}
+
 .nav-link {
   margin-right: 20px;
   color: hotpink !important;
@@ -16,12 +34,20 @@
   color: hotpink !important;
 }
 
-.nav-link:hover {
-  background-color: yellow;
+@media only screen and (min-width: 900px) {
+  .nav-link:hover {
+    background-color: yellow;
+  }
 }
 
-.dropdown-item:hover {
-  background-color: yellow;
+@media only screen and (min-width: 900px) {
+  .dropdown-item:hover {
+    background-color: yellow;
+  }
+}
+
+.active {
+  background-color: green ;
 }
 
 header {
