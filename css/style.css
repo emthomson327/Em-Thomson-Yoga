@@ -126,7 +126,8 @@ h1.secondaryPageTitle {
 
 .img-fluid {
   margin: auto;
-  width: 100%;
+  width: 100%; /*works for landscape pics*/
+  /*width: auto;*/
   height: auto;
   max-height: 300px;
 }
@@ -148,7 +149,15 @@ p {
   display: inline-block;
   width: 40%;
   padding-left: 10%;
+}
 
+ul {
+  width: 45%;
+  padding-left: 15%;
+}
+
+li {
+  margin-top: 10px;
 }
 
 .secondaryPageImages {
@@ -172,6 +181,21 @@ p {
   margin-right: 45%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
 }
+
+.btn-social-icon.btn-lg {
+  height: 45px;
+  width: 45px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px;
+}
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: rgba(0,0,0,0.2);
+}
+
+
 
 /*footer {
    position:absolute;
