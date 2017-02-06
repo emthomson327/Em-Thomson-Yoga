@@ -31,8 +31,8 @@ a {
 
 .navbar {
   background-image:
-    linear-gradient(#b19cd9, #7f0fff);
-  border: 1px solid blue;
+    linear-gradient(#663399, #FF4500);
+  /*border: 1px solid blue;*/
 }
 
 .nav-link {
@@ -47,7 +47,7 @@ a {
 
 .dropdown-menu {
   background-image:
-    linear-gradient(#b19cd9, #7f0fff);
+    linear-gradient(#FF4500, #663399);
 }
 
 @media only screen and (min-width: 990px) {
@@ -95,7 +95,7 @@ header {
   height: 300px;
   margin: 0;
   background-image:
-    linear-gradient(#b19cd9, #7f0fff);
+    linear-gradient(#FF4500, #663399);
 }
 
 #title {
